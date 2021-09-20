@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    }
+    body {
+        background: url(login5.jpg) no-repeat;
+        background-size: cover;  
+    }
+    .login-form {
+         width: 350px;
+         top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: #fff;
+    }
+    
+    .login-form h1 {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+    
+    .login-form p{
+       font-size: 20px;
+       margin: 15px 0;
+    }
+    
+    .login-form input{
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+    }
+    
+    .login-form button {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 50%;
+        border-radius: 5px;
+        border: 0;
+    }
+    .my button{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .btn1{
+        width: 200px;
+        height: 50px;
+        border:none;
+        color:black;
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 2rem;
+        outline: none;
+        border:3px solid #fff;
+        position: relative;
+    }
+    .btn1:hover{
+        color:#fff;
+        cursor: pointer;
+        
+
+        }
+    .btn1:before{
+        transition: 0.5s all ease;
+        top: 0%;
+        left:50%;
+        right:50%;
+        bottom:0;
+        opacity:0;
+        content:'';
+        background-color: #32fbf2;
+
+
+        }
+        .btn1:hover:before{
+            transition:0.5s all ease;
+            left:0;
+            right:0;
+            opacity:1;
+            z-index: -1;
+
+        }
+        .btn2{
+            width: 200px;
+            height: 50px;
+            border:none;
+            color:black;
+            border-radius: 4px;
+            transition: ease-out 0.3s;
+            font-size: 2rem;
+            outline: none;
+            border:3px solid #fff;
+            position: relative;
+        }
+        .btn2:hover{
+            color:#fff;
+            cursor: pointer;
+            
+    
+            }
+        .btn2:before{
+            transition: 0.5s all ease;
+            top: 0%;
+            left:50%;
+            right:50%;
+            bottom:0;
+            opacity:0;
+            content:'';
+            background-color: #32fbf2;
+    
+    
+            }
+            .btn2:hover:before{
+                transition:0.5s all ease;
+                left:0;
+                right:0;
+                opacity:1;
+                z-index: -1;
+            }
